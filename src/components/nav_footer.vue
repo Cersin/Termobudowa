@@ -1,12 +1,48 @@
 <template>
-<div>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus alias, atque cumque delectus exercitationem explicabo harum minus porro qui ratione reprehenderit sint voluptate. Culpa, dolore, exercitationem! Dignissimos incidunt repellat tempora?
-</div>
+    <v-footer
+            absolute
+            padless
+    >
+        <v-card
+                flat
+                tile
+                width="100%"
+                class="primary  text-center"
+        >
+            <v-card-text>
+                <v-btn
+                        v-for="link in links"
+                        :key="link.text"
+                        class="mx-4 red darken-2"
+                        fab
+                        x-small
+
+                >
+                    <v-icon size="18px" class="white--text">{{ link.icon }}</v-icon>
+                </v-btn>
+            </v-card-text>
+            <v-divider></v-divider>
+            <v-card-text >
+                {{ new Date().getFullYear() }} — Szymon Wójcik
+            </v-card-text>
+        </v-card>
+    </v-footer>
 </template>
 
 <script>
     export default {
-        name: "nav_footer"
+        name: "nav_footer",
+        data() {
+            return{
+                links: [
+                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                ]
+            }
+        }
     }
 </script>
 
