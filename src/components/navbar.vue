@@ -26,16 +26,17 @@
                                 <v-icon>mdi-chevron-down</v-icon>
                             </v-btn>
                         </template>
-                        <v-list class="primary lighten-2">
+                        <v-list class="primary lighten-1 ">
                             <v-list-item
                                     v-for="link in links"
                                     :key="link.text"
                             >
                                 <span>
-                                <v-icon>{{ link.icon }}</v-icon>
-                                </span>
-                                <span>
-                                <v-list-item-title>{{ link.text }}</v-list-item-title>
+                                    <v-btn small rounded class="transparent ">
+                                        <v-icon>{{ link.icon }}</v-icon>
+                                        <span>{{ link.text }}</span>
+                                    </v-btn>
+
                                 </span>
                             </v-list-item>
                         </v-list>
