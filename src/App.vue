@@ -1,21 +1,22 @@
 <template>
   <v-app>
     <navbar/>
-
-    <v-content>
-      <router-view/>
-    </v-content>
+      <v-content>
+       <router-view/>
+      </v-content>
+<nav_footer/>
   </v-app>
 </template>
 
 <script>
-
-import Navbar from "./components/navbar";
+  import nav_footer from "./components/nav_footer";
+  import navbar from "./components/navbar";
 export default {
   name: 'App',
 
   components: {
-    Navbar
+    navbar,
+    nav_footer
   },
 
   data: () => ({
