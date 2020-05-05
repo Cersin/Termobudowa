@@ -1,7 +1,6 @@
 <template>
     <nav>
         <v-app-bar short app flat class="primary">
-
             <v-toolbar-title class="title text-uppercase  font-weight-light">
                 <span class="black--text font-weight-bold" >Termo</span>
                 <span class="red--text text--darken-3 font-weight-bold">budowa</span>
