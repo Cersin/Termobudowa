@@ -2,7 +2,7 @@
     <v-container fluid  style="background-color:  #02497d">
         <v-row  class="justify-center align-center">
 <!--        <h1 class="font-italic font-weight-light" :class="[$vuetify.breakpoint.mdAndUp ? 'display-4' : 'display-2']">Termobudowa S.C.</h1>-->
-            <v-img class="image_banner" src="../assets/banner.jpg" contain></v-img>
+            <v-img class="image_banner"  src="../assets/banner.jpg" contain></v-img>
         </v-row>
         <!--<v-row class=" justify-center ">-->
         <!--    <v-col cols="12" lg="5" md="5">-->

@@ -1,8 +1,8 @@
 <template>
-    <v-footer
+    <v-footer app
             absolute
             padless
-            app
+
     >
         <v-card
                 flat
