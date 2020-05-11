@@ -1,4 +1,4 @@
-<template class="menuFloating">
+<template>
     <div id="floatingMenu">
     <ul>
         <li @click="$vuetify.goTo('#home',{duration:1000})">
