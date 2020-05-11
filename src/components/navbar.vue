@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <v-app-bar short app flat class="primary">
+        <v-app-bar short app flat class="primary darken-1">
             <v-app-title>
                 <v-img class="logo__nav" src="../assets/logo2.png" ></v-img>
             </v-app-title>
