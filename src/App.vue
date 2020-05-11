@@ -1,4 +1,4 @@
-<template>
+<template >
   <v-app>
     <navbar/>
       <v-content>
@@ -24,3 +24,4 @@ export default {
   }),
 };
 </script>
+
