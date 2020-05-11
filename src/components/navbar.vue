@@ -2,17 +2,18 @@
     <nav>
         <v-app-bar short app flat class="primary">
             <v-toolbar-title class="title text-uppercase  font-weight-light">
-                <span class="black--text font-weight-bold" >Termo</span>
-                <span class="red--text text--darken-3 font-weight-bold">budowa</span>
+                <v-img src="../assets/logo2.png"></v-img>
+<!--                <span class="red&#45;&#45;text text&#45;&#45;darken-3 font-weight-bold" >Termo</span>-->
+<!--                <span class="black&#45;&#45;text font-weight-bold">budowa</span>-->
             </v-toolbar-title>
 
                 <!-- odstęp w nawigacji !-->
                 <v-spacer></v-spacer>
 
                 <!--Przyciski na med i wys rozdzielczosci !-->
-                <v-btn v-for="link in links" :key="link.text" small text class="text--secondary d-none d-md-block">
+                <v-btn v-for="link in links" :key="link.text" small text class="grey--text text--lighten-3 d-none d-md-block">
                     <span>{{ link.text }}</span>
-                    <v-icon right class="red--text text--darken-3">{{ link.icon }}</v-icon>
+                    <v-icon right class="error--text" >{{ link.icon }}</v-icon>
                 </v-btn>
 
                 <!--Przyciski ponizej med rozdzielczosci !-->
@@ -20,7 +21,7 @@
                 <div class="text-center d-md-none">
                     <v-menu offset-y>
                         <template v-slot:activator="{ on }">
-                            <v-btn small v-on="on" rounded class="transparent red--text text--darken-3" >
+                            <v-btn small v-on="on" rounded class="transparent grey--text text--lighten-3" >
                                 <span>Menu</span>
                                 <v-icon>mdi-chevron-down</v-icon>
                             </v-btn>
@@ -32,8 +33,8 @@
                             >
                                 <span>
                                     <v-btn small rounded class="transparent  ">
-                                        <v-icon class="red--text text--darken-3">{{ link.icon }}</v-icon>
-                                        <span>{{ link.text }}</span>
+                                        <v-icon class="error--text">{{ link.icon }}</v-icon>
+                                        <span class="grey--text text--lighten-3">{{ link.text }}</span>
                                     </v-btn>
 
                                 </span>

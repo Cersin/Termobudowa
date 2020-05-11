@@ -11,8 +11,8 @@
         <!--</v-row>-->
         <v-row class="justify-center align-end"  style="min-height: 20vh">
             <span>
-                <v-icon x-large class="red--text text--darken-2">mdi-mouse</v-icon>
-                <v-icon x-large class="red--text text--darken-2">mdi-arrow-up-down</v-icon>
+                <v-icon x-large class="error--text">mdi-mouse</v-icon>
+                <v-icon x-large class="error--text">mdi-arrow-up-down</v-icon>
             </span>
         </v-row>
     </v-container>

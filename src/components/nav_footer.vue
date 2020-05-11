@@ -14,7 +14,7 @@
                 <v-btn
                         v-for="link in links"
                         :key="link.text"
-                        class="mx-4 red darken-2"
+                        class="mx-4 error"
                         fab
                         x-small
 

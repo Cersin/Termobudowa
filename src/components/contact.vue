@@ -10,7 +10,7 @@
             </v-col>
             <v-col cols="12" sm="8" lg="6" md="6" xs="12">
                 <v-card>
-                    <v-card-title style="background-color: #C62828">
+                    <v-card-title class="error">
                         <span class="headline white--text">Kontakt</span>
                         <v-spacer></v-spacer>
                     </v-card-title>
