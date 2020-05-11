@@ -16,6 +16,11 @@
 
         </v-row>
         <v-row>
+            <v-col lg="5" md="5" class="order-sm-1 order-md-2">
+                <div class="aboutPicture">
+                    <v-img src="../assets/aboutPicture2.svg" contain style="height: 350px; width: auto;" ></v-img>
+                </div>
+            </v-col>
             <v-col cols="12" lg="5" md="5" offset-lg="1" offset-md="1" class="text-center order-sm-2 order-md-1">
                 <h1 class="font-italic font-weight-light display-2 ma-1">Czym się zajmujemy?</h1>
                 <p>Firma nasza koncentruje się na świadczeniu wysokiej jakości usług w zakresie budowy i remontów wymurówek i wykładzin izolacyjnych, ogniotrwałych i żaroodpornych:<br>
@@ -33,11 +38,7 @@
                     Ponadto wykonujemy izolacje termiczne ciepło i zimno-chronne instalacji energetycznych, ciepłowniczych, hutniczych, rurociągów.
                     Dewizą naszej firmy jest zadowolenie klientów z dobrego i terminowego wykonania naszych usług przy zachowaniu najwyższych standardów BHP i ochrony środowiska. W tym celu nasi pracownicy posiadają wysokie kwalifikacje i legitymują się niezbędnymi uprawnieniami.</p>
             </v-col>
-            <v-col lg="5" md="5" class="order-sm-1 order-md-2">
-                <div class="aboutPicture">
-                    <v-img src="../assets/aboutPicture2.svg" contain style="height: 350px; width: auto;" ></v-img>
-                </div>
-            </v-col>
+
 
         </v-row>
 
