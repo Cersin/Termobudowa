@@ -2,9 +2,9 @@
   <div class="home">
 <company/>
 
-      <about/>
-      <contact/>
-      <googlemap/>
+      <about id="about"/>
+      <contact id="contact"/>
+      <googlemap id="googlemap"/>
   </div>
 </template>
 

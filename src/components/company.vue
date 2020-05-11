@@ -13,8 +13,24 @@
             <span>
                 <v-icon x-large class="error--text">mdi-mouse</v-icon>
                 <v-icon x-large class="error--text">mdi-arrow-up-down</v-icon>
+                <v-btn
+                        block
+                        color="primary"
+                        @click="$vuetify.goTo('#about',{duration:1000})"
+                >O nas</v-btn>
+                <v-btn
+                        block
+                        color="primary"
+                        @click="$vuetify.goTo('#contact',{duration:1000})"
+                >Kontakt</v-btn>
+                <v-btn
+                        block
+                        color="primary"
+                        @click="$vuetify.goTo('#googlemap',{duration:1000})"
+                >Lokalizacja</v-btn>
             </span>
         </v-row>
+
     </v-container>
 </template>
 
