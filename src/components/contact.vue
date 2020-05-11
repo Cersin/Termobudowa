@@ -5,10 +5,10 @@
 
 
         <v-row justify="center" align="center">
-            <v-col cols="8" lg="5">
+            <v-col cols="8" lg="5" md="6">
                 <v-img src="../assets/contact.svg" contain></v-img>
             </v-col>
-            <v-col cols="6" sm="8" lg="6 ">
+            <v-col cols="12" sm="8" lg="6" md="6" xs="12">
                 <v-card>
                     <v-card-title style="background-color: #C62828">
                         <span class="headline white--text">Kontakt</span>
