@@ -1,11 +1,11 @@
 <template>
     <nav>
         <v-app-bar short app flat class="primary">
-            <v-toolbar-title class="title text-uppercase  font-weight-light">
-                <v-img src="../assets/logo2.png"></v-img>
+            <v-app-title>
+                <v-img class="logo__nav" src="../assets/logo2.png" ></v-img>
+            </v-app-title>
 <!--                <span class="red&#45;&#45;text text&#45;&#45;darken-3 font-weight-bold" >Termo</span>-->
 <!--                <span class="black&#45;&#45;text font-weight-bold">budowa</span>-->
-            </v-toolbar-title>
 
                 <!-- odstęp w nawigacji !-->
                 <v-spacer></v-spacer>
@@ -66,5 +66,12 @@
 </script>
 
 <style scoped>
-
+@media screen and (max-width: 900px) {
+.logo__nav {
+    width: 250px;
+}
+    
+}
+    
+    
 </style>
