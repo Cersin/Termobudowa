@@ -1,33 +1,83 @@
 <template>
-    <v-container fluid style="background-color:  #02497d">
+    <v-container fluid class="primary">
 
-        <v-row class="justify-center">
-            <h1 class="display-1 white--text font-weight-light font-italic">Kontakt</h1>
-        </v-row>
-        <v-row class="justify-center">
-            <v-card height="10vw" width="40vw">
-<!--                <v-card-title >-->
-<!--                    <v-col cols="6" class="text-center">-->
-<!--                        <p class="subtitle-2 " >Adres</p>-->
-<!--                    </v-col>-->
-<!--                    <v-col cols="6" class="text-center">-->
-<!--                        <p class="subtitle-2" >Adres</p>-->
-<!--                    </v-col>-->
-<!--                </v-card-title>-->
-                <v-row class="justify-center ">
-                <v-col cols="4">
-                    <p>Adres</p>
-                </v-col>
-                <v-col cols="4">
-                    <p>TA</p>
-                </v-col>
-                <v-col cols="4">
-                    <v-icon style="font-size: 8vw">mdi-map-marker</v-icon>
-                </v-col>
-                </v-row>
 
-            </v-card>
+
+
+        <v-row justify="center" align="center">
+            <v-col cols="8" lg="5">
+                <v-img src="../assets/contact.svg" contain></v-img>
+            </v-col>
+            <v-col cols="6" sm="8" lg="6 ">
+                <v-card>
+                    <v-card-title style="background-color: #C62828">
+                        <span class="headline white--text">Kontakt</span>
+                        <v-spacer></v-spacer>
+                    </v-card-title>
+
+                    <v-list>
+                        <v-list-item >
+                            <v-list-item-action>
+                                <v-icon>mdi-phone</v-icon>
+                            </v-list-item-action>
+
+                            <v-list-item-content>
+                                <v-list-item-title>(+48) 502 150 855</v-list-item-title>
+                            </v-list-item-content>
+                        </v-list-item>
+
+                        <v-divider inset></v-divider>
+
+                        <v-list-item>
+                            <v-list-item-action>
+                                <v-icon>mdi-phone</v-icon>
+                            </v-list-item-action>
+
+                            <v-list-item-content>
+                                <v-list-item-title>(+48) 502 203 948</v-list-item-title>
+                            </v-list-item-content>
+                        </v-list-item>
+
+                        <v-divider inset></v-divider>
+
+                        <v-list-item >
+                            <v-list-item-action>
+                                <v-icon>mdi-email</v-icon>
+                            </v-list-item-action>
+
+                            <v-list-item-content>
+                                <v-list-item-title>marek.lewandowski@termobudowa.com.pl</v-list-item-title>
+                            </v-list-item-content>
+                        </v-list-item>
+
+                        <v-divider inset></v-divider>
+
+                        <v-list-item >
+                            <v-list-item-action>
+                                <v-icon>mdi-email</v-icon>
+                            </v-list-item-action>
+
+                            <v-list-item-content>
+                                <v-list-item-title>tomasz.lewandowski@termobudowa.com.pl</v-list-item-title>
+                            </v-list-item-content>
+                        </v-list-item>
+
+                        <v-divider inset></v-divider>
+
+                        <v-list-item >
+                            <v-list-item-action>
+                                <v-icon>mdi-map-marker</v-icon>
+                            </v-list-item-action>
+
+                            <v-list-item-content>
+                                <v-list-item-title>43-600 Jaworzno, Hetmańska 82K</v-list-item-title>
+                            </v-list-item-content>
+                        </v-list-item>
+                    </v-list>
+                </v-card>
+            </v-col>
         </v-row>
+
 </v-container>
 
 
@@ -40,5 +90,9 @@
 </script>
 
 <style scoped>
+
+    .contact__container{
+        width: 50%;
+    }
 
 </style>
