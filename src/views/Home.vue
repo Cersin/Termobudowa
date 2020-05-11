@@ -2,8 +2,9 @@
   <div class="home">
 <company/>
 
-    <about/>
+      <about/>
       <contact/>
+
   </div>
 </template>
 
