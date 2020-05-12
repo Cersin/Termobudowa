@@ -11,9 +11,11 @@
                 <v-spacer></v-spacer>
 
                 <!--Przyciski na med i wys rozdzielczosci !-->
-                <v-btn v-for="link in links" :key="link.text" small text class="grey--text text--lighten-3 d-none d-md-block">
+                <v-btn v-for="link in links" :key="link.text"  small text class="grey--text text--lighten-3 d-none d-md-block">
+                    <router-link tag="v-btn" :to="link.route">
                     <span>{{ link.text }}</span>
                     <v-icon right class="error--text" >{{ link.icon }}</v-icon>
+                    </router-link>
                 </v-btn>
 
                 <!--Przyciski ponizej med rozdzielczosci !-->
@@ -33,8 +35,10 @@
                             >
                                 <span>
                                     <v-btn small rounded class="transparent  ">
+                                     <router-link tag="v-btn" :to="link.route">
                                         <v-icon class="error--text">{{ link.icon }}</v-icon>
                                         <span class="grey--text text--lighten-3">{{ link.text }}</span>
+                                     </router-link>
                                     </v-btn>
 
                                 </span>
@@ -56,7 +60,7 @@
                 links: [
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
-                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                    { icon: 'mdi-home', text: 'Referencje', route:'/referencje'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                 ]

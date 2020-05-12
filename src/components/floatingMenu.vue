@@ -2,7 +2,7 @@
     <div id="floatingMenu">
     <v-list  class="transparent floatingList" expand>
         <v-list-item-content>
-        <v-btn icon  class="error red" @click="$vuetify.goTo('#home',{duration:1000})">
+        <v-btn icon  class="error red buttonfloating" @click="$vuetify.goTo('#home',{duration:1000})">
             <v-icon  >mdi-arrow-up-drop-circle</v-icon></v-btn>
             <v-btn icon  class="error white--text" @click="$vuetify.goTo('#about',{duration:1000})">
             <v-icon >mdi-account-hard-hat mdi-18px</v-icon></v-btn>
@@ -32,5 +32,4 @@
     .floatingList {
         width: 5vh;
     }
-
 </style>

@@ -17,9 +17,10 @@
                         class="mx-4 error"
                         fab
                         x-small
-
                 >
+                    <router-link tag="v-btn" :to="link.route">
                     <v-icon size="18px" class="white--text">{{ link.icon }}</v-icon>
+                    </router-link>
                 </v-btn>
             </v-card-text>
             <v-divider></v-divider>
@@ -38,7 +39,7 @@
                 links: [
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
-                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                    { icon: 'mdi-home', text: 'Referencje', route:'/referencje'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                 ]
