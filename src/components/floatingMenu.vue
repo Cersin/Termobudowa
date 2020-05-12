@@ -1,15 +1,17 @@
 <template>
     <div id="floatingMenu">
-    <ul>
-        <li @click="$vuetify.goTo('#home',{duration:1000})">
-            <v-icon x-large class="error--text">mdi-arrow-up-bold</v-icon></li>
-        <li @click="$vuetify.goTo('#about',{duration:1000})">
-            <v-icon x-large class="error--text">mdi-phone</v-icon></li>
-        <li><a @click="$vuetify.goTo('#contact',{duration:1000})">
-            <v-icon x-large class="error--text">mdi-account-box</v-icon></a></li>
-        <li @click="$vuetify.goTo('#googlemap',{duration:1000})">
-            <v-icon x-large class="error--text">mdi-map-marker</v-icon></li>
-    </ul>
+    <v-list  class="transparent floatingList" expand>
+        <v-list-item-content>
+        <v-btn icon  class="error red" @click="$vuetify.goTo('#home',{duration:1000})">
+            <v-icon  >mdi-arrow-up-drop-circle</v-icon></v-btn>
+            <v-btn icon  class="error white--text" @click="$vuetify.goTo('#about',{duration:1000})">
+            <v-icon >mdi-wrench-outline mdi-18px</v-icon></v-btn>
+            <v-btn icon  class="error white--text" @click="$vuetify.goTo('#contact',{duration:1000})">
+            <v-icon  >mdi-phone mdi-18px</v-icon></v-btn>
+            <v-btn icon  class="error red" @click="$vuetify.goTo('#googlemap',{duration:1000})">
+            <v-icon  >mdi-arrow-down-drop-circle </v-icon></v-btn>
+        </v-list-item-content>
+    </v-list>
     </div>
 </template>
 
@@ -20,14 +22,15 @@
 </script>
 
 <style scoped>
- #floatingMenu li{
-     list-style-type: none;
- }
     #floatingMenu{
         position:fixed;
         z-index: 1000;
         top: 50%;
-        margin-top: -50px;
+        margin-top: -100px;
 
     }
+    .floatingList {
+        width: 5vh;
+    }
+
 </style>
