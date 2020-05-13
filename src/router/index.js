@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Reference from "../views/Reference";
+import Gallery from "../views/Gallery";
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ Vue.use(VueRouter)
       path: '/referencje',
       name: 'Reference',
       component: Reference
+    },
+    {
+      path: '/galeria',
+      name: 'Gallery',
+      component: Gallery
     }
 
 

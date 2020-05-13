@@ -61,7 +61,7 @@
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Referencje', route:'/referencje'},
-                    { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
+                    { icon: 'mdi-home', text: 'Galeria', route:'/galeria'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                 ]
             }
