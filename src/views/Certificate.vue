@@ -50,11 +50,11 @@
             </v-col>
         </v-row>
         <v-row class="align-center justify-center">
-            <v-col cols="12" lg="4" md="4" sm="4" order-lg="10">
+            <v-col cols="12" lg="4" md="4" sm="4" order-lg="10" order-md="10">
                 <v-img class="image_contract" src="../assets/contract.svg" contain/>
             </v-col>
 
-            <v-col cols="10" lg="4" md="6" sm="6" order-lg="10" >
+            <v-col cols="10" lg="4" md="6" sm="6" order-lg="1" order-md="1" >
                 <h1 class="headline ml-2">Zapraszam do współpracy!</h1>
                 <v-card class="card_contact" shaped>
                     <v-card-title>
