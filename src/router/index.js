@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Reference from "../views/Reference";
 import Gallery from "../views/Gallery";
 import Certificate from "../views/Certificate";
+import Kontakt from "../views/Kontakt";
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ Vue.use(VueRouter)
       path: '/certyfikaty',
       name: 'Certificate',
       component: Certificate
+    },
+    {
+      path: '/kontakt',
+      name: 'Kontakt',
+      component: Kontakt
     }
 
 
