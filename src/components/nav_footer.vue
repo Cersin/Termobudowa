@@ -25,7 +25,8 @@
             </v-card-text>
             <v-divider></v-divider>
             <v-card-text >
-                {{ new Date().getFullYear() }} — Szymon Wójcik
+                Copyright &copy; {{ new Date().getFullYear() }}
+                <h1 class="overline white--text">  Szymon Wójcik oraz Adrian Ochała</h1>
             </v-card-text>
         </v-card>
     </v-footer>
