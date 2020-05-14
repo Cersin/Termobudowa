@@ -57,7 +57,6 @@ ul {
 
 }
 ul li {
-    display: ;
 
 }
 </style>

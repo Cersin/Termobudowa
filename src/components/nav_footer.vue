@@ -17,10 +17,9 @@
                         class="mx-4 error"
                         fab
                         x-small
+                        :to="link.route"
                 >
-                    <router-link tag="v-btn" :to="link.route">
                     <v-icon size="18px" class="white--text">{{ link.icon }}</v-icon>
-                    </router-link>
                 </v-btn>
             </v-card-text>
             <v-divider></v-divider>
@@ -50,6 +49,5 @@
 </script>
 
 <style scoped>
-
 
 </style>

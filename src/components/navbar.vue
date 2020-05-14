@@ -4,18 +4,14 @@
             <v-app-title>
                 <v-img class="logo__nav" src="../assets/logo2.png" ></v-img>
             </v-app-title>
-<!--                <span class="red&#45;&#45;text text&#45;&#45;darken-3 font-weight-bold" >Termo</span>-->
-<!--                <span class="black&#45;&#45;text font-weight-bold">budowa</span>-->
 
                 <!-- odstęp w nawigacji !-->
                 <v-spacer></v-spacer>
 
                 <!--Przyciski na med i wys rozdzielczosci !-->
-                <v-btn v-for="link in links" :key="link.text"  small text class="grey--text text--lighten-3 d-none d-md-block">
-                    <router-link tag="v-btn" :to="link.route">
-                    <span>{{ link.text }}</span>
-                    <v-icon right class="error--text" >{{ link.icon }}</v-icon>
-                    </router-link>
+                <v-btn v-for="link in links" :key="link.text" :to="link.route" small text class="grey--text text--lighten-3 d-none d-md-block ">
+                    <span class="mt-1">{{ link.text }}</span>
+                    <v-icon right class="error--text mt-1" >{{ link.icon }}</v-icon>
                 </v-btn>
 
                 <!--Przyciski ponizej med rozdzielczosci !-->
@@ -34,13 +30,10 @@
                                     :key="link.text"
                             >
                                 <span>
-                                    <v-btn small rounded class="transparent  ">
-                                     <router-link tag="v-btn" :to="link.route">
+                                    <v-btn small rounded class="transparent " :to="link.route">
                                         <v-icon class="error--text">{{ link.icon }}</v-icon>
                                         <span class="grey--text text--lighten-3">{{ link.text }}</span>
-                                     </router-link>
                                     </v-btn>
-
                                 </span>
                             </v-list-item>
                         </v-list>
@@ -75,8 +68,5 @@
 .logo__nav {
     width: 250px;
 }
-    
 }
-    
-    
 </style>
