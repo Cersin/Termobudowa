@@ -39,7 +39,7 @@
                 links: [
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
-                    { icon: 'mdi-home', text: 'Referencje', route:'/referencje'},
+                    { icon: 'mdi-handshake', text: 'Referencje', route:'/referencje'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                 ]

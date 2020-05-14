@@ -1,28 +1,29 @@
 <template >
     <v-container fluid class="text-center primary ">
-        <div class="reference_box">
-         <silent-box class="white" :gallery="gallery" ></silent-box>
+        <div class="reference_box  elevation-24 v-text-field--rounded  ">
+            <h1 class="display-2 mb-5 font-italic font-weight-thin">Referencje</h1>
+         <silent-box  :gallery="gallery" ></silent-box>
         </div>
     </v-container>
 </template>
 
 <style >
-.reference_box {
-    border-radius: 5%;
-}
 
-.reference_box #silentbox-gallery {
+
+.reference_box  {
     margin-top: 2vw;
     margin-bottom: 2vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    background-color: white;
 }
 
 .reference_box .silentbox-item {
-    margin-left: 5vh;
-    margin-right: 5vh;
-
-
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    border-style: ridge;
+    border-color: grey;
 }
 
 
