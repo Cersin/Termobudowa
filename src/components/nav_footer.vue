@@ -40,6 +40,7 @@
                     { icon: 'mdi-home', text: 'Strona Główna', route:'/'},
                     { icon: 'mdi-handshake', text: 'Referencje', route:'/referencje'},
                     { icon: 'mdi-image-multiple', text: 'Galeria', route:'/galeria'},
+                    { icon: 'mdi-certificate', text: 'Certyfikaty', route:'/certyfikaty'},
                 ]
             }
         }
