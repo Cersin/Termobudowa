@@ -54,8 +54,8 @@
                 <v-img class="image_contract" src="../assets/contract.svg" contain/>
             </v-col>
 
-            <v-col cols="10" lg="4" md="6" sm="6" order-lg="10">
-                <h1 class="display-1">Zapraszam do współpracy!</h1>
+            <v-col cols="10" lg="4" md="6" sm="6" order-lg="10" >
+                <h1 class="headline ml-2">Zapraszam do współpracy!</h1>
                 <v-card class="card_contact" shaped>
                     <v-card-title>
                         mgr inż. Tomasz Lewandowski
