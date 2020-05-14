@@ -17,6 +17,18 @@
     margin-right: 5vw;
     background-color: white;
 }
+@media screen and (min-width: 700px) {
+    .reference_box {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .reference_box {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+}
 
 .reference_box .silentbox-item {
     margin-left: 2vh;
