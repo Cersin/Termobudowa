@@ -5,7 +5,7 @@
         <form><fieldset>
             <legend>Filtry</legend>
             <span class="filters">
-            <input type="radio" id="all"
+            <input type="radio" id="all" checked
                    name="filters"
                    v-on:click="updateFilter('all')"/>
             <label for="all">Wszystkie</label>
