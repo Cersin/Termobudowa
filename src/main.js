@@ -5,7 +5,7 @@ import vuetify from './plugins/vuetify';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import VueSilentbox from "vue-silentbox";
-AOS.init({ disable: 'mobile' });
+AOS.init();
 Vue.config.productionTip = false
 Vue.use(VueSilentbox);
 new Vue({

@@ -2,7 +2,11 @@
   <v-app>
     <navbar/>
       <v-content>
-       <router-view/>
+       <router-view
+       data-aos="fade-up"
+       data-aos-easing="ease-in-out"
+       data-aos-duration="1000"
+       />
       </v-content>
 <nav_footer/>
   </v-app>
