@@ -30,6 +30,8 @@
                                 <v-icon>mdi-phone</v-icon>
                             </v-list-item-action>
 
+
+
                             <v-list-item-content>
                                 <v-list-item-title><h1 class="caption">Tomasz Lewandowski</h1> (+48) 502 203 948</v-list-item-title>
                             </v-list-item-content>
@@ -41,6 +43,19 @@
                             <v-list-item-action>
                                 <v-icon>mdi-email</v-icon>
                             </v-list-item-action>
+
+                            <v-list-item-content>
+                                <v-list-item-title>biuro@termobudowa.com.pl</v-list-item-title>
+                            </v-list-item-content>
+                        </v-list-item>
+
+                        <v-divider inset></v-divider>
+
+                        <v-list-item >
+                            <v-list-item-action>
+                                <v-icon>mdi-email</v-icon>
+                            </v-list-item-action>
+
 
                             <v-list-item-content>
                                 <v-list-item-title>marek.lewandowski@termobudowa.com.pl</v-list-item-title>
