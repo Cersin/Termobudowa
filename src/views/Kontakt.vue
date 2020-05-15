@@ -31,7 +31,7 @@
 }
     @media screen and (max-height: 960px) {
         .img_deal {
-            height: 30vw;
+            height: 25vw;
         }
     }
 </style>
