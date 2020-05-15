@@ -1,9 +1,6 @@
 <template>
     <v-container fluid class="primary">
 
-
-
-
         <v-row justify="center" align="center">
             <v-col cols="8" lg="5" md="6">
                 <v-img src="../assets/contact.svg" contain></v-img>
@@ -22,7 +19,7 @@
                             </v-list-item-action>
 
                             <v-list-item-content>
-                                <v-list-item-title>(+48) 502 150 855</v-list-item-title>
+                                <v-list-item-title><h1 class="caption">Marek Lewandowski</h1> (+48) 502 150 855</v-list-item-title>
                             </v-list-item-content>
                         </v-list-item>
 
@@ -34,7 +31,7 @@
                             </v-list-item-action>
 
                             <v-list-item-content>
-                                <v-list-item-title>(+48) 502 203 948</v-list-item-title>
+                                <v-list-item-title><h1 class="caption">Tomasz Lewandowski</h1> (+48) 502 203 948</v-list-item-title>
                             </v-list-item-content>
                         </v-list-item>
 
