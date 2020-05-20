@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid class="text-center primary">
+    <v-container fluid class="text-center primary" style="min-height: 100%" >
         <h1 class="display-2 mb-4 mt-2 font-italic font-weight-thin">Galeria</h1>
     <v-row>
         <v-col cols="12" lg="6" offset-lg="3" md="6" offset-md="3" sm="10" offset-sm="1">
