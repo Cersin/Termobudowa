@@ -1,9 +1,10 @@
 <template>
-    <v-container fluid class="text-center primary ">
-        <h1>Nomanie witaj w galerii</h1>
-
+    <v-container fluid class="text-center primary">
+        <h1 class="display-2 mb-4 mt-2 font-italic font-weight-thin">Galeria</h1>
+    <v-row>
+        <v-col cols="12" lg="6" offset-lg="3" md="6" offset-md="3" sm="10" offset-sm="1">
         <form><fieldset>
-            <legend>Filtry</legend>
+
             <span class="filters">
             <input type="radio" id="all" checked
                    name="filters"
@@ -29,13 +30,36 @@
             <label for="Wyłożenia miękkie">Wyłożenia miękkie</label>
             </span>
         </fieldset></form>
-
+        </v-col>
+    </v-row>
         <silent-box class="gallery_box" :gallery="filteredImages"></silent-box>
 
     </v-container>
-    
 </template>
-
+<style >
+    .gallery_box .silentbox-item{
+        margin-left: 1vh;
+        margin-right: 1vh;
+        margin-top: 1vh;
+    }
+    .gallery_box .silentbox-item img{
+        border: solid;
+        border-color: #0D47A1;
+        height: 173px;
+    }
+    .gallery_box .silentbox-item img:hover{
+        border-color: #FF7202;
+    }
+    .filters{
+        margin-left: 1vh;
+    }
+    .filters input{
+        margin-right: 0.5vh;
+    }
+    .filters label:hover{
+        cursor: pointer;
+    }
+</style>
 <script>
     var gallery = [
             {
@@ -137,10 +161,7 @@
             {
                 src: require('../assets/Wyłożenia miękkie/7.jpg'), description: '', alt: '', thumbnailWidth: '220px', filter:"Wyłożenia miękkie"
             },
-
-
         ];
-
     export default {
         name: "Gallery",
         data() {
@@ -161,23 +182,9 @@
                 }else{
                     return this.images.filter(image => image.filter === this.galleryFilter);
                 }
-
             }
         }
-
     }
 </script>
 
-<style >
-.gallery_box .silentbox-item{
-    margin-left: 1vh;
-    margin-right: 1vh;
-    margin-top: 1vh;
-}
-    .filters{
-        margin-left: 1vh;
-    }
-    .filters input{
-        margin-right: 0.5vh;
-    }
-</style>
+
