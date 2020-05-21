@@ -1,5 +1,5 @@
 <template >
-    <v-container fluid class="text-center primary" style="min-height: 100%">
+    <v-container fluid class="text-center primary" style=" min-height: 100%">
         <div class="reference_box  elevation-24 v-text-field--rounded  ">
             <h1 class="display-2 mb-5 font-italic font-weight-thin">Referencje</h1>
          <silent-box  :gallery="gallery" ></silent-box>
